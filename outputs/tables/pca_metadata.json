@@ -1,0 +1,9 @@
+{
+  "input_rows": 2789,
+  "input_features": 71,
+  "variance_threshold": 0.95,
+  "components_for_threshold": 6,
+  "pc1_explained_variance": 0.2895285446001467,
+  "pc2_explained_variance": 0.286507005952337,
+  "pc1_pc2_cumulative_variance": 0.5760355505524837
+}

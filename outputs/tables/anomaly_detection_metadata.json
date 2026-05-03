@@ -1,0 +1,16 @@
+{
+  "rows_scored": 2789,
+  "pca_components_used": 6,
+  "cluster_column": "selected_baseline_cluster",
+  "contamination": 0.05,
+  "top_n_saved": 50,
+  "top_5pct_anomaly_count": 139,
+  "highest_score_node": 2786,
+  "highest_score_cluster": 8,
+  "highest_combined_anomaly_score": 0.9818407423854605,
+  "score_weights": {
+    "cluster_distance_score": 0.45,
+    "isolation_forest_score": 0.45,
+    "low_weighted_degree_score": 0.1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "selected_method": "spectral",
+  "selected_k": 10,
+  "selection_metric": "highest silhouette_score",
+  "candidate_k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "rows_clustered": 2789,
+  "pca_components_used": 6,
+  "selected_silhouette_score": 0.5886323149184591,
+  "selected_calinski_harabasz_score": 1901.5714747938491,
+  "selected_davies_bouldin_score": 0.7364829354445894,
+  "selected_cluster_sizes": {
+    "0": 313,
+    "1": 368,
+    "2": 218,
+    "3": 323,
+    "4": 237,
+    "5": 344,
+    "6": 313,
+    "7": 374,
+    "8": 97,
+    "9": 202
+  }
+}

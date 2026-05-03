@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paddy Farm Cluster Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">UCI Paddy Dataset</p>
+        <h1>Paddy Farm Cluster Portal</h1>
+      </div>
+      <div class="header-stats" id="header-stats"></div>
+    </header>
+
+    <main>
+      <nav class="tabs" aria-label="Dashboard views">
+        <button class="tab is-active" type="button" data-view="overview">Overview</button>
+        <button class="tab" type="button" data-view="clusters">Clusters</button>
+        <button class="tab" type="button" data-view="models">Models</button>
+        <button class="tab" type="button" data-view="anomalies">Anomalies</button>
+      </nav>
+
+      <section class="view is-active" id="overview">
+        <div class="metrics-grid" id="overview-metrics"></div>
+        <div class="split-layout">
+          <section class="panel">
+            <div class="panel-head">
+              <h2>PCA Projection</h2>
+              <select id="scatter-color" aria-label="Scatter color metric">
+                <option value="cluster">Cluster</option>
+                <option value="yield">Yield</option>
+                <option value="anomaly">Anomaly score</option>
+              </select>
+            </div>
+            <div id="pca-scatter" class="chart chart-tall"></div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h2>Cluster Yield</h2>
+            </div>
+            <div id="yield-bars" class="chart"></div>
+            <div class="table-wrap compact">
+              <table id="overview-cluster-table"></table>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="clusters">
+        <div class="toolbar">
+          <label>
+            Cluster
+            <select id="cluster-filter"></select>
+          </label>
+        </div>
+        <div class="metrics-grid" id="cluster-metrics"></div>
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Cluster Profile</h2>
+          </div>
+          <div id="profile-heatmap" class="chart"></div>
+        </section>
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Cluster Summary</h2>
+          </div>
+          <div class="table-wrap">
+            <table id="cluster-summary-table"></table>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="models">
+        <div class="split-layout">
+          <section class="panel">
+            <div class="panel-head">
+              <h2>Validation Scores</h2>
+            </div>
+            <div id="model-score-lines" class="chart"></div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h2>PCA Variance</h2>
+            </div>
+            <div id="pca-variance-chart" class="chart"></div>
+          </section>
+        </div>
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Best Methods</h2>
+          </div>
+          <div class="table-wrap">
+            <table id="best-methods-table"></table>
+          </div>
+        </section>
+        <section class="panel">
+          <div class="panel-head">
+            <h2>Graph Connectivity</h2>
+          </div>
+          <div id="graph-connectivity" class="chart"></div>
+        </section>
+      </section>
+
+      <section class="view" id="anomalies">
+        <div class="metrics-grid" id="anomaly-metrics"></div>
+        <div class="split-layout">
+          <section class="panel">
+            <div class="panel-head">
+              <h2>Anomalies by Cluster</h2>
+            </div>
+            <div id="anomaly-cluster-bars" class="chart"></div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h2>Top Anomalies</h2>
+            </div>
+            <div class="table-wrap">
+              <table id="top-anomalies-table"></table>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

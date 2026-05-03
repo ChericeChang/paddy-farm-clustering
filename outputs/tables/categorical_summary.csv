@@ -1,0 +1,9 @@
+column,unique_count,top_value,top_count,top_pct
+Agriblock,6,Sankarapuram,605,21.69
+Variety,3,ponmani,1061,38.04
+Soil Types,2,clay,1521,54.54
+Nursery,2,dry,1540,55.22
+Wind Direction_D1_D30,6,SSE,605,21.69
+Wind Direction_D31_D60,5,W,1055,37.83
+Wind Direction_D61_D90,5,SE,899,32.23
+Wind Direction_D91_D120,6,NW,605,21.69

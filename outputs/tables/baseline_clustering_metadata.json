@@ -1,0 +1,60 @@
+{
+  "candidate_k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "rows_clustered": 2789,
+  "pca_components_used": 6,
+  "baseline_selection_metric": "highest silhouette_score",
+  "selected_baseline_method": "kmeans",
+  "selected_baseline_k": 10,
+  "selected_baseline_label_column": "kmeans_k10",
+  "best_by_method": [
+    {
+      "method": "kmeans",
+      "n_clusters": 10,
+      "silhouette_score": 0.5998631845189943,
+      "calinski_harabasz_score": 1907.6911160461918,
+      "davies_bouldin_score": 0.6835471345094812,
+      "smallest_cluster_size": 185,
+      "largest_cluster_size": 425
+    },
+    {
+      "method": "hierarchical_ward",
+      "n_clusters": 10,
+      "silhouette_score": 0.5649781898853313,
+      "calinski_harabasz_score": 1802.5314103739875,
+      "davies_bouldin_score": 0.7554775627569181,
+      "smallest_cluster_size": 102,
+      "largest_cluster_size": 374
+    }
+  ],
+  "selected_baseline_metrics": {
+    "method": "kmeans",
+    "n_clusters": 10,
+    "silhouette_score": 0.5998631845189943,
+    "calinski_harabasz_score": 1907.6911160461918,
+    "davies_bouldin_score": 0.6835471345094812,
+    "smallest_cluster_size": 185,
+    "largest_cluster_size": 425
+  },
+  "selected_baseline_cluster_sizes": {
+    "0": 197,
+    "1": 237,
+    "2": 240,
+    "3": 185,
+    "4": 313,
+    "5": 425,
+    "6": 368,
+    "7": 265,
+    "8": 270,
+    "9": 289
+  }
+}

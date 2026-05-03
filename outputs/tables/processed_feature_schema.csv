@@ -1,0 +1,72 @@
+processed_feature,feature_order
+Hectares,0
+Seedrate(in Kg),1
+LP_Mainfield(in Tonnes),2
+Nursery area (Cents),3
+LP_nurseryarea(in Tonnes),4
+DAP_20days,5
+Weed28D_thiobencarb,6
+Urea_40Days,7
+Potassh_50Days,8
+Micronutrients_70Days,9
+Pest_60Day(in ml),10
+30DRain( in mm),11
+30DAI(in mm),12
+30_50DRain( in mm),13
+30_50DAI(in mm),14
+51_70DRain(in mm),15
+51_70AI(in mm),16
+71_105DRain(in mm),17
+71_105DAI(in mm),18
+Min temp_D1_D30,19
+Max temp_D1_D30,20
+Min temp_D31_D60,21
+Max temp_D31_D60,22
+Min temp_D61_D90,23
+Max temp_D61_D90,24
+Min temp_D91_D120,25
+Max temp_D91_D120,26
+Inst Wind Speed_D1_D30(in Knots),27
+Inst Wind Speed_D31_D60(in Knots),28
+Inst Wind Speed_D61_D90(in Knots),29
+Inst Wind Speed_D91_D120(in Knots),30
+Relative Humidity_D1_D30,31
+Relative Humidity_D31_D60,32
+Relative Humidity_D61_D90,33
+Relative Humidity_D91_D120,34
+Trash(in bundles),35
+Agriblock_Chinnasalem,36
+Agriblock_Cuddalore,37
+Agriblock_Kallakurichi,38
+Agriblock_Kurinjipadi,39
+Agriblock_Panruti,40
+Agriblock_Sankarapuram,41
+Variety_CO_43,42
+Variety_delux ponni,43
+Variety_ponmani,44
+Soil Types_alluvial,45
+Soil Types_clay,46
+Nursery_dry,47
+Nursery_wet,48
+Wind Direction_D1_D30_E,49
+Wind Direction_D1_D30_ENE,50
+Wind Direction_D1_D30_NW,51
+Wind Direction_D1_D30_SSE,52
+Wind Direction_D1_D30_SW,53
+Wind Direction_D1_D30_W,54
+Wind Direction_D31_D60_ENE,55
+Wind Direction_D31_D60_NE,56
+Wind Direction_D31_D60_S,57
+Wind Direction_D31_D60_W,58
+Wind Direction_D31_D60_WNW,59
+Wind Direction_D61_D90_NE,60
+Wind Direction_D61_D90_NNE,61
+Wind Direction_D61_D90_NNW,62
+Wind Direction_D61_D90_SE,63
+Wind Direction_D61_D90_SW,64
+Wind Direction_D91_D120_NNW,65
+Wind Direction_D91_D120_NW,66
+Wind Direction_D91_D120_S,67
+Wind Direction_D91_D120_SSE,68
+Wind Direction_D91_D120_W,69
+Wind Direction_D91_D120_WSW,70

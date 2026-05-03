@@ -1,0 +1,46 @@
+column,dtype,non_null_count,missing_count,missing_pct,unique_count
+Hectares,int64,2789,0,0.0,6
+Agriblock,str,2789,0,0.0,6
+Variety,str,2789,0,0.0,3
+Soil Types,str,2789,0,0.0,2
+Seedrate(in Kg),int64,2789,0,0.0,6
+LP_Mainfield(in Tonnes),float64,2789,0,0.0,6
+Nursery,str,2789,0,0.0,2
+Nursery area (Cents),int64,2789,0,0.0,6
+LP_nurseryarea(in Tonnes),int64,2789,0,0.0,6
+DAP_20days,int64,2789,0,0.0,6
+Weed28D_thiobencarb,int64,2789,0,0.0,6
+Urea_40Days,float64,2789,0,0.0,6
+Potassh_50Days,float64,2789,0,0.0,6
+Micronutrients_70Days,int64,2789,0,0.0,6
+Pest_60Day(in ml),int64,2789,0,0.0,6
+30DRain( in mm),float64,2789,0,0.0,3
+30DAI(in mm),float64,2789,0,0.0,3
+30_50DRain( in mm),float64,2789,0,0.0,3
+30_50DAI(in mm),float64,2789,0,0.0,3
+51_70DRain(in mm),float64,2789,0,0.0,3
+51_70AI(in mm),float64,2789,0,0.0,3
+71_105DRain(in mm),float64,2789,0,0.0,3
+71_105DAI(in mm),float64,2789,0,0.0,3
+Min temp_D1_D30,float64,2789,0,0.0,6
+Max temp_D1_D30,int64,2789,0,0.0,5
+Min temp_D31_D60,float64,2789,0,0.0,6
+Max temp_D31_D60,int64,2789,0,0.0,5
+Min temp_D61_D90,float64,2789,0,0.0,6
+Max temp_D61_D90,float64,2789,0,0.0,6
+Min temp_D91_D120,float64,2789,0,0.0,5
+Max temp_D91_D120,float64,2789,0,0.0,5
+Inst Wind Speed_D1_D30(in Knots),int64,2789,0,0.0,4
+Inst Wind Speed_D31_D60(in Knots),int64,2789,0,0.0,4
+Inst Wind Speed_D61_D90(in Knots),int64,2789,0,0.0,3
+Inst Wind Speed_D91_D120(in Knots),int64,2789,0,0.0,3
+Wind Direction_D1_D30,str,2789,0,0.0,6
+Wind Direction_D31_D60,str,2789,0,0.0,5
+Wind Direction_D61_D90,str,2789,0,0.0,5
+Wind Direction_D91_D120,str,2789,0,0.0,6
+Relative Humidity_D1_D30,float64,2789,0,0.0,6
+Relative Humidity_D31_D60,int64,2789,0,0.0,6
+Relative Humidity_D61_D90,int64,2789,0,0.0,5
+Relative Humidity_D91_D120,int64,2789,0,0.0,6
+Trash(in bundles),int64,2789,0,0.0,17
+Paddy yield(in Kg),int64,2789,0,0.0,477

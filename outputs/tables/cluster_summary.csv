@@ -1,0 +1,11 @@
+cluster,farm_count,avg_yield_kg,median_yield_kg,avg_hectares,avg_seedrate_kg,avg_dap_20days,avg_urea_40days,avg_potash_50days,avg_pest_60day_ml,avg_trash_bundles,dominant_agriblock,dominant_agriblock_pct,dominant_variety,dominant_variety_pct,dominant_soil_types,dominant_soil_types_pct,dominant_nursery,dominant_nursery_pct
+6,368,29363.57,30780.0,4.76,118.89,190.22,129.01,49.36,2853.26,427.93,Sankarapuram,100.0,delux ponni,35.87,clay,55.16,dry,52.99
+9,289,29325.22,30610.0,4.76,118.94,190.31,129.08,49.39,2854.67,432.98,Kurinjipadi,100.0,ponmani,41.87,clay,52.6,dry,56.75
+2,240,29231.16,30775.0,4.76,118.96,190.33,129.09,49.39,2855.0,432.25,Kallakurichi,100.0,ponmani,40.83,clay,53.33,dry,55.42
+7,265,29145.81,30575.0,4.76,118.96,190.34,129.1,49.39,2855.09,426.94,Cuddalore,100.0,delux ponni,35.85,clay,54.72,dry,52.45
+4,313,26496.97,25584.0,4.35,108.71,173.93,117.97,45.13,2608.95,394.22,Chinnasalem,100.0,ponmani,43.45,clay,51.44,dry,56.55
+5,425,22328.97,24604.0,3.69,92.18,147.48,100.03,38.27,2212.24,330.07,Panruti,100.0,delux ponni,38.59,clay,57.18,dry,53.18
+1,237,13015.99,11832.0,2.27,56.65,90.63,61.47,23.52,1359.49,203.67,Sankarapuram,100.0,delux ponni,37.97,clay,55.7,dry,63.71
+0,197,12764.93,11784.0,2.22,55.46,88.73,60.18,23.03,1330.96,200.86,Kurinjipadi,100.0,ponmani,38.58,clay,54.31,dry,57.36
+3,185,12657.78,11746.0,2.2,55.0,88.0,59.69,22.84,1320.0,196.92,Cuddalore,100.0,delux ponni,39.46,clay,64.32,dry,54.05
+8,270,11324.11,11446.0,1.97,49.17,78.67,53.36,20.41,1180.0,178.93,Kallakurichi,64.07,ponmani,41.85,alluvial,51.48,dry,52.59

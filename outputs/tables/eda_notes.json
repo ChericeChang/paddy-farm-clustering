@@ -1,0 +1,33 @@
+{
+  "rows":2789,
+  "columns":45,
+  "missing_values":0,
+  "duplicate_rows_beyond_first":451,
+  "numeric_columns":37,
+  "categorical_columns":8,
+  "yield_column_present":true,
+  "highest_abs_yield_correlations":{
+    "Urea_40Days":0.9946,
+    "Hectares":0.9946,
+    "LP_nurseryarea(in Tonnes)":0.9946,
+    "Weed28D_thiobencarb":0.9946,
+    "Potassh_50Days":0.9946,
+    "Nursery area (Cents)":0.9946,
+    "DAP_20days":0.9946,
+    "Micronutrients_70Days":0.9946,
+    "Seedrate(in Kg)":0.9946,
+    "LP_Mainfield(in Tonnes)":0.9946
+  },
+  "top_iqr_outlier_features":{
+    "Inst Wind Speed_D61_D90(in Knots)":425,
+    "Hectares":0,
+    "Inst Wind Speed_D1_D30(in Knots)":0,
+    "Min temp_D31_D60":0,
+    "Max temp_D31_D60":0,
+    "Min temp_D61_D90":0,
+    "Max temp_D61_D90":0,
+    "Min temp_D91_D120":0,
+    "Max temp_D91_D120":0,
+    "Inst Wind Speed_D31_D60(in Knots)":0
+  }
+}

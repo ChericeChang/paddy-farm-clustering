@@ -1,0 +1,20 @@
+{
+  "cluster_column": "selected_baseline_cluster",
+  "target_column": "Paddy yield(in Kg)",
+  "rows_profiled": 2789,
+  "clusters": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "number_of_clusters": 10,
+  "highest_average_yield_cluster": 6,
+  "lowest_average_yield_cluster": 8
+}

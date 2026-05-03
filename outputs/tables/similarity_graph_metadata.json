@@ -1,0 +1,18 @@
+{
+  "nodes": 2789,
+  "edges": 632680,
+  "requested_neighbors": 400,
+  "pca_components_used": 6,
+  "sigma": 2.4661658846005134,
+  "connected_components": 1,
+  "largest_component_size": 2789,
+  "largest_component_pct": 1.0,
+  "min_degree": 400,
+  "median_degree": 440.0,
+  "mean_degree": 453.6966654714952,
+  "max_degree": 652,
+  "min_similarity": 0.005479023582268659,
+  "median_similarity": 0.5954884875163858,
+  "mean_similarity": 0.46269494842424186,
+  "max_similarity": 1.0
+}
