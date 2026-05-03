@@ -346,12 +346,21 @@ function initTabs() {
   });
 }
 
+function initRequestedView() {
+  const params = new URLSearchParams(window.location.search);
+  const requestedView = params.get("view");
+  if (!requestedView || !$(`#${requestedView}`)) return;
+  const requestedTab = document.querySelector(`.tab[data-view="${requestedView}"]`);
+  if (requestedTab) requestedTab.click();
+}
+
 function init() {
   initMetrics();
   initTables();
   initClusterFilter();
   initCharts();
   initTabs();
+  initRequestedView();
   $("#scatter-color").addEventListener("change", (event) => drawScatter(event.target.value));
 }
 

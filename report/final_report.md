@@ -178,15 +178,21 @@ The anomaly score distribution shows that most farms have moderate anomaly score
 
 ![Combined anomaly score distribution](../outputs/figures/anomaly_score_distribution.png)
 
-## 9. Web Portal
+## 9. Web Portal Exploration
 
-A static web portal was created in the `app/` directory. The portal displays the major project outputs, including PCA projections, cluster profiles, clustering model comparisons, graph connectivity, and anomaly results. The portal was designed to make the analysis easier to inspect interactively, especially for comparing clusters and reviewing anomalous farms.
+As an exploratory supplement to the analysis, a static web portal was built to organize and review the project results visually. The portal itself is not the main submitted artifact; rather, it was used as a supporting tool to inspect PCA projections, cluster profiles, model comparisons, graph connectivity, and anomaly results in one place. This helped verify whether the generated tables and figures told a coherent story.
 
-The portal can be opened directly from:
+The overview screen shows the main project metrics and allows the PCA projection to be colored by cluster, yield, or anomaly score. This made it easier to compare the geometric PCA structure with the final clustering and anomaly results.
 
-`app/index.html`
+![Web portal overview screen](../outputs/figures/portal_screenshots/portal_overview.png)
 
-No server or additional Python web framework is required.
+The model comparison screen summarizes validation scores, PCA explained variance, and graph connectivity. This view was useful for explaining why k-means was selected as the final model even though the original proposal focused on spectral clustering.
+
+![Web portal model comparison screen](../outputs/figures/portal_screenshots/portal_models.png)
+
+The anomaly screen displays the number of anomalous farms by cluster and lists the highest-ranked anomalous observations. This made the anomaly detection results easier to interpret than reviewing the CSV output alone.
+
+![Web portal anomaly screen](../outputs/figures/portal_screenshots/portal_anomalies.png)
 
 ## 10. Limitations
 
