@@ -4,7 +4,8 @@
 **Group:** Group #285  
 **Student:** Kar Chyi Chang (Kchang327)  
 **Date:** May 3, 2026  
-**Project Title:** Graph-Based Spectral Analysis of Paddy Farming Practices
+**Project Title:** Graph-Based Spectral Analysis of Paddy Farming Practices  
+**GitHub Repository:** [https://github.com/ChericeChang/paddy-farm-clustering](https://github.com/ChericeChang/paddy-farm-clustering)
 
 # Graph-Based Spectral Analysis of Paddy Farming Practices
 
